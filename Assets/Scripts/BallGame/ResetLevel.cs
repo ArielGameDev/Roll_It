@@ -7,7 +7,8 @@ public class ResetLevel : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Player")
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (collision.collider.tag == "Player"){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
