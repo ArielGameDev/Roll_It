@@ -12,13 +12,20 @@ public class Player : MonoBehaviour
     Rigidbody m_rigibBody;
     Camera m_camera;
 
+    [SerializeField]
+    float jumpForce;
+    [SerializeField]
+    LayerMask groundLayer;
+    SphereCollider sphereCollider;
 
     void Start()
     {
         m_rigibBody = GetComponent<Rigidbody>();
         m_camera = Camera.main;
+        sphereCollider = GetComponent<SphereCollider>();
 
         m_rigibBody.maxAngularVelocity = 50;
+
     }
 
     void FixedUpdate()
@@ -27,6 +34,11 @@ public class Player : MonoBehaviour
 
         moveVector = GetMovementVector();
         MovePlayer(moveVector, _acceleration);
+
+        if (IsGrounded() && Input.GetKey(KeyCode.Space))
+        {
+            m_rigibBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
 
     }
 
@@ -60,5 +72,12 @@ public class Player : MonoBehaviour
 
         return move.normalized;
 
+    }
+
+    private bool IsGrounded()
+    {
+        return Physics.CheckCapsule(sphereCollider.bounds.center,
+            new Vector3(sphereCollider.bounds.center.x, sphereCollider.bounds.min.y, sphereCollider.bounds.center.z),
+            sphereCollider.radius * 0.9f, groundLayer);
     }
 }
