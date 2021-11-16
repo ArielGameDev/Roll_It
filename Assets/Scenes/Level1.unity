@@ -1557,7 +1557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6448457626933718486, guid: 21f762158bb2f5547bf6c469539aedc3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6448457626933718486, guid: 21f762158bb2f5547bf6c469539aedc3, type: 3}
       propertyPath: m_LocalScale.x
@@ -1581,7 +1581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6448457626933718486, guid: 21f762158bb2f5547bf6c469539aedc3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 145.35
+      value: 146.73
       objectReference: {fileID: 0}
     - target: {fileID: 6448457626933718486, guid: 21f762158bb2f5547bf6c469539aedc3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2088,7 +2088,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50.452, y: -50.678, z: -6.092}
 --- !u!1 &632223274
 GameObject:
@@ -2224,7 +2224,7 @@ Transform:
   - {fileID: 1953323014}
   - {fileID: 1027981004}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687698016
 GameObject:
@@ -5279,7 +5279,7 @@ GameObject:
   - component: {fileID: 1595563638}
   m_Layer: 0
   m_Name: Lava
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5371,7 +5371,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679660157
 GameObject:
@@ -6034,7 +6034,7 @@ Transform:
   - {fileID: 1489095719}
   - {fileID: 1927785992}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1953323013
 GameObject:
@@ -7261,13 +7261,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 256647980364477618, guid: d23a863d725f99d49aefb0ae57907e47, type: 3}
+      propertyPath: restart
+      value: 304
+      objectReference: {fileID: 0}
     - target: {fileID: 2386554961193962589, guid: d23a863d725f99d49aefb0ae57907e47, type: 3}
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 8291582727455318045, guid: d23a863d725f99d49aefb0ae57907e47, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8291582727455318045, guid: d23a863d725f99d49aefb0ae57907e47, type: 3}
       propertyPath: m_LocalPosition.x
