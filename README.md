@@ -2,7 +2,14 @@
 
 A ball game
 
-Use w, s, a, d to move the ball and try to get the final stage.
-for restart the phase press Left Shift.
-
 [Ball Game - itch.io link](https://arielgamedev.itch.io/ball-game) 
+
+## Try to get the final stage.
+
+* Ball Movement - w, s, a, d.
+
+* Press space to jump when allowed (Only in level 2)
+
+* Left Shift to restart the phase
+
+
