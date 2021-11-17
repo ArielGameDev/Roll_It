@@ -8,9 +8,9 @@ A ball game - Try to get the final stage.
 
 * Ball Movement - w, s, a, d.
 
-* Press space to jump when allowed (Only in level 2).
+* Press space to jump when allowed (Only in stage 2).
 
-* Left Shift to restart the phase.
+* Left Shift to restart the stage.
 
 
 
