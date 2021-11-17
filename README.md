@@ -1,10 +1,10 @@
 # Ball Game
 
-A ball game
+## A ball game -  Try to get the final stage.
 
 [Ball Game - itch.io link](https://arielgamedev.itch.io/ball-game) 
 
-## Try to get the final stage.
+## Game
 
 * Ball Movement - w, s, a, d.
 
