@@ -37,7 +37,9 @@ public class Player : MonoBehaviour
 
         if (IsGrounded() && Input.GetKey(KeyCode.Space))
         {
-            m_rigibBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            // m_rigibBody.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            m_rigibBody.velocity += Vector3.up * jumpForce;
+
         }
 
     }
@@ -78,6 +80,6 @@ public class Player : MonoBehaviour
     {
         return Physics.CheckCapsule(sphereCollider.bounds.center,
             new Vector3(sphereCollider.bounds.center.x, sphereCollider.bounds.min.y, sphereCollider.bounds.center.z),
-            sphereCollider.radius * 0.9f, groundLayer);
+            sphereCollider.radius * 0.6f, groundLayer);
     }
 }
