@@ -14,11 +14,11 @@ A ball game - Try to get the final stage.
 
 ## Wiki Pages
 
-* [formal-elements.md](https://github.com/ArielGameDev/BallGame/wiki/formal-elements.md)
+* [Formal Elements.md](https://github.com/ArielGameDev/BallGame/wiki/formal-elements.md)
 
-* [dramatic-components.md](https://github.com/ArielGameDev/BallGame/wiki/dramatic-components.md)
+* [Dramatic Components.md](https://github.com/ArielGameDev/BallGame/wiki/dramatic-components.md)
 
-* [dynamic.md](https://github.com/ArielGameDev/BallGame/wiki/dynamic.md)
+* [Dynamic.md](https://github.com/ArielGameDev/BallGame/wiki/dynamic.md)
 
 
 
