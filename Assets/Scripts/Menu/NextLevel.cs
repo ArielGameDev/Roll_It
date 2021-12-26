@@ -14,12 +14,12 @@ public class NextLevel : MonoBehaviour
         PlayerPrefs.SetInt("CurrScene", currScene);
         PlayerPrefs.SetInt("NextScene", currScene);
         nextScene = currScene + 1;
-        
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Player")
         {
+            PlayerPrefs.SetInt("available", 1);
             PlayerPrefs.SetInt("NextScene", nextScene);
             SceneManager.LoadScene(3);
         }
