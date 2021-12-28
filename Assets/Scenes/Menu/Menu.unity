@@ -594,7 +594,6 @@ GameObject:
   - component: {fileID: 1276315071}
   - component: {fileID: 1276315076}
   - component: {fileID: 1276315075}
-  - component: {fileID: 1276315078}
   - component: {fileID: 1276315077}
   m_Layer: 5
   m_Name: Canvas
@@ -738,18 +737,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Continue: {fileID: 1390361064}
---- !u!114 &1276315078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1276315070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ff65b1d3c72d5b428bd8db8e4134f47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1390361062
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +749,7 @@ GameObject:
   - component: {fileID: 1390361066}
   - component: {fileID: 1390361065}
   - component: {fileID: 1390361064}
+  - component: {fileID: 1390361068}
   - component: {fileID: 1390361067}
   m_Layer: 5
   m_Name: Continue
@@ -894,6 +882,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff6128f2994ea0f4ca20d252979e9fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1390361068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390361062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff65b1d3c72d5b428bd8db8e4134f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1428024762

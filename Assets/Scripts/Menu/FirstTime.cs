@@ -6,15 +6,15 @@ public class FirstTime : MonoBehaviour
 {
     private static bool firstTime = false;
     
-    private void Awake()
+    private void Start()
     {
         PlayerPrefs.SetInt("available", 0);
+        
         if (!firstTime) 
-        { 
             firstTime = true;
-        } 
+        
         else
-            PlayerPrefs.SetInt("available", 1); Debug.Log("active");
+            PlayerPrefs.SetInt("available", 1);
 
     }
 }
