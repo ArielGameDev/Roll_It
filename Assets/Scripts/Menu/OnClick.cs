@@ -14,7 +14,8 @@ public class OnClick : MonoBehaviour
    
     void LoadOnClick()
 	{
-        SceneManager.LoadScene(name);
+		PlayerPrefs.SetInt("available", 1);
+		SceneManager.LoadScene(name);
 	}
     
 }

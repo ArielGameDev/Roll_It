@@ -7,6 +7,7 @@ public class NextLevel : MonoBehaviour
 {
     private int nextScene;
     private int currScene;
+    private string stage;
 
     private void Start()
     {

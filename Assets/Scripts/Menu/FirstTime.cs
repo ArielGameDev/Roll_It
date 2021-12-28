@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class FirstTime : MonoBehaviour
 {
-    private static bool firstTime = false;
+    public static bool firstTime = false;
     
     private void Start()
     {
-        PlayerPrefs.SetInt("available", 0);
         
-        if (!firstTime) 
-            firstTime = true;
-        
+        if (!firstTime)
+            PlayerPrefs.SetInt("available", 0);
+
         else
             PlayerPrefs.SetInt("available", 1);
 
