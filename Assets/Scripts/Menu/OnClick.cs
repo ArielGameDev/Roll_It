@@ -10,11 +10,11 @@ public class OnClick : MonoBehaviour
 		Button button = this.GetComponent<Button>();
 		button.onClick.AddListener(LoadOnClick);
 		string name = this.GetComponent<Button>().gameObject.name;
-		PlayerPrefs.SetInt("available", 0);
-
-	}
-	void LoadOnClick()
+    }
+   
+    void LoadOnClick()
 	{
-		SceneManager.LoadScene(name);
+        SceneManager.LoadScene(name);
 	}
+    
 }

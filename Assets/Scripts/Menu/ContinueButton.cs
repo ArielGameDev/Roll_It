@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ContinueButton : MonoBehaviour
 {
     [SerializeField] private Button Continue;
-    [SerializeField] private int available = 0;
+    [SerializeField] private static int available;
     private void Awake()
     {
         available = PlayerPrefs.GetInt("available");

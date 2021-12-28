@@ -8,6 +8,7 @@ public class LoadScene : MonoBehaviour
     private int sceneToLoad;
     public void LoadMenuScene()
     {
+        PlayerPrefs.SetInt("available", 1);
         SceneManager.LoadScene(0);
     }
     public void LoadNextLevel()
