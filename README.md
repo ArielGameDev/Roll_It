@@ -1,12 +1,12 @@
-# Ball Game
+# Roll It
 
 A ball game - Try to get the final stage.
 
-[Ball Game - itch.io link](https://arielgamedev.itch.io/ball-game) 
+[Roll It - itch.io link](https://arielgamedev.itch.io/roll-it) 
 
 ## Game
 
-* Ball Movement - w, s, a, d.
+* Ball Movement : keyboard arrows or w, s, a, d.
 
 * Press space to jump when allowed (Only in stage 2).
 
