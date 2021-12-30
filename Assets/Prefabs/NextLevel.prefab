@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6448457626933718482}
   - component: {fileID: 6448457626933718485}
   - component: {fileID: 6448457626933718484}
-  - component: {fileID: 6448457626933718487}
+  - component: {fileID: 3916722653726381861}
   m_Layer: 0
   m_Name: NextLevel
   m_TagString: Untagged
@@ -96,7 +96,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0.9}
---- !u!114 &6448457626933718487
+--- !u!114 &3916722653726381861
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,7 +105,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6448457626933718473}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39d88c4412ffe5049b8ae8f1fd5d8d43, type: 3}
+  m_Script: {fileID: 11500000, guid: e6f0b5181617d3d468d20fe44e964d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Level1
