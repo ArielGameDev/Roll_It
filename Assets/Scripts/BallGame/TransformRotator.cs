@@ -9,7 +9,7 @@ public class TransformRotator : MonoBehaviour
 
     private void Update()
     {
-        transform.Rotate(_axis);
+        transform.Rotate(_axis*Time.deltaTime);
     }
 
 }

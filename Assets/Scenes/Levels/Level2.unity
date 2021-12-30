@@ -215,7 +215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2254756214376632339, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: _axis.z
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2254756215565536050, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: m_LocalScale.y
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80308f60977dbdb489a713c9b66b5fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _axis: {x: 0, y: 0.125, z: 0}
+  _axis: {x: 0, y: 25, z: 0}
 --- !u!1001 &613395706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1406,7 +1406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2254756214376632339, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: _axis.z
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2254756215565536050, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: m_LocalScale.y
@@ -2486,7 +2486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2254756214376632339, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: _axis.z
-      value: 1
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6224769921415306945, guid: d3ea3b1587dd81342bcde11d4727be1b, type: 3}
       propertyPath: m_RootOrder
