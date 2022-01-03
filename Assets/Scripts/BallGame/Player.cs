@@ -81,5 +81,6 @@ public class Player : MonoBehaviour
         return Physics.CheckCapsule(sphereCollider.bounds.center,
             new Vector3(sphereCollider.bounds.center.x, sphereCollider.bounds.min.y, sphereCollider.bounds.center.z),
             sphereCollider.radius * 0.6f, groundLayer);
+
     }
 }
