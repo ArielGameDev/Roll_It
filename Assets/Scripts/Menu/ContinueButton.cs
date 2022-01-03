@@ -6,7 +6,6 @@ public class ContinueButton : MonoBehaviour
 {
     [SerializeField] private Button Continue;
     [SerializeField] private Button Stage;
-    [SerializeField] private Button Store;
 
     private static int available;
     private void Start()
@@ -17,7 +16,6 @@ public class ContinueButton : MonoBehaviour
         {
             Continue.gameObject.SetActive(false);
             Stage.gameObject.SetActive(false);
-            Store.gameObject.SetActive(false);
             FirstTime.firstTime = true;
         }
            
@@ -25,7 +23,6 @@ public class ContinueButton : MonoBehaviour
         {
             Continue.gameObject.SetActive(true);
             Stage.gameObject.SetActive(true);
-            Store.gameObject.SetActive(true);
         }
           
     }
