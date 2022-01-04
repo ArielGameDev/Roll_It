@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
-    private int nextScene_asint;
+    private int nextScene;
     private int currScene;
     private string stage;
 
@@ -14,14 +14,14 @@ public class NextLevel : MonoBehaviour
         currScene = SceneManager.GetActiveScene().buildIndex;
         PlayerPrefs.SetInt("CurrScene", currScene);
         PlayerPrefs.SetInt("NextScene", currScene);
-        nextScene_asint = currScene + 1;
+        nextScene = currScene + 1;
     }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "Player" && currScene != 10)
         {
             PlayerPrefs.SetInt("available", 1);
-            PlayerPrefs.SetInt("NextScene", nextScene_asint);
+            PlayerPrefs.SetInt("NextScene", nextScene);
             SceneManager.LoadScene(3);
         }
         else if(collision.collider.tag == "Player" && currScene == 10)
