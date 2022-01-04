@@ -23,8 +23,8 @@ public class NextLevel : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            // PlayerPrefs.SetInt("available", 1);
-            // PlayerPrefs.SetInt("NextScene", nextScene_asint);
+            PlayerPrefs.SetInt("available", 1);
+            PlayerPrefs.SetInt("NextScene", nextScene_asint);
             // SceneManager.LoadScene(3);
 
             SceneManager.LoadScene(nextScene.name);
