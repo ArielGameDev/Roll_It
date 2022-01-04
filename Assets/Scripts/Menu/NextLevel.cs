@@ -18,11 +18,20 @@ public class NextLevel : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Player")
+        if (collision.collider.tag == "Player" && currScene != 10)
         {
             PlayerPrefs.SetInt("available", 1);
             PlayerPrefs.SetInt("NextScene", nextScene_asint);
             SceneManager.LoadScene(3);
+        }
+        else if(collision.collider.tag == "Player" && currScene == 10)
+        {
+            nextScene = 4;
+            currScene = 4;
+            PlayerPrefs.SetInt("CurrScene", currScene);
+            PlayerPrefs.SetInt("NextScene", currScene);
+            SceneManager.LoadScene(3);
+            
         }
     }
     
