@@ -9,9 +9,6 @@ public class NextLevel : MonoBehaviour
     private int currScene;
     private string stage;
 
-    [SerializeField]
-    public Object nextScene;
-
     private void Start()
     {
         currScene = SceneManager.GetActiveScene().buildIndex;
@@ -25,9 +22,7 @@ public class NextLevel : MonoBehaviour
         {
             PlayerPrefs.SetInt("available", 1);
             PlayerPrefs.SetInt("NextScene", nextScene_asint);
-            // SceneManager.LoadScene(3);
-
-            SceneManager.LoadScene(nextScene.name);
+            SceneManager.LoadScene(3);
         }
     }
     
